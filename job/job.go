@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hi from a batch job! My index is: %s\n", os.Getenv("JOB_INDEX"))
+	fmt.Printf("Hi, Arcadio 1, from a batch job! My index is: %s\n", os.Getenv("JOB_INDEX"))
 }
